@@ -17,5 +17,6 @@ public class MyServlet1 extends HttpServlet {
         PrintWriter writer = resp.getWriter();
         writer.print(data);
         writer.flush();
+
     }
 }
